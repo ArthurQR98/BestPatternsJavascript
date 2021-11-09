@@ -1,0 +1,18 @@
+class Suma {
+    constructor(v = 0) {
+        this.val = v;
+    }
+    suma(v) {
+        this.val += v;
+        return this;
+    }
+}
+
+const valor = new Suma(1);
+console.log(valor.suma(1)
+    .suma(1)
+    .suma(1)
+    .suma(1)
+    .suma(1)
+    .suma(1)
+    .val);;
